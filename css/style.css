@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+.shop .container {
+  padding: 76px 104px;
+  width: 1728px;
+  margin: 0 auto;
+}
+.shop .container .card_info .card_text h1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.shop .container .card_info .card_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.shop .container .card_info .card_button button {
+  width: 254px;
+  height: 55px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.shop .container .shop_card {
+  display: grid;
+  grid-template-columns: repeat(4, 364px);
+  gap: 21px;
+}
+.shop .container .shop_card .shop_item {
+  width: 366px;
+  max-height: 476px;
+  background: #000;
+}
+.shop .container .shop_card .shop_item .item_img {
+  height: 201px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+}
+.shop .container .shop_card .shop_item .item_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.shop .container .shop_card .shop_item .item_text {
+  padding: 30px 30px 0px 30px;
+}
+.shop .container .shop_card .shop_item .item_text h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 11px;
+}
+.shop .container .shop_card .shop_item .item_text p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.56);
+  width: 306px;
+  height: 51px;
+}
+.shop .container .shop_card .shop_item .item_info {
+  display: flex;
+  padding: 0 30px;
+  gap: 23px;
+}
+.shop .container .shop_card .shop_item .item_info .info_elem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.shop .container .shop_card .shop_item .item_info .info_elem img {
+  width: 12px;
+  height: 13.39px;
+}
+.shop .container .shop_card .shop_item .item_info .info_elem span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.shop .container .shop_card .shop_item .item_button {
+  padding: 30px 30px 24px 30px;
+}
+.shop .container .shop_card .shop_item .item_button .active_btn {
+  background: #1F86FF;
+  color: #FFFFFF;
+}
+.shop .container .shop_card .shop_item .item_button button {
+  width: 305px;
+  height: 55px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  text-align: center;
+  margin: 8px 0;
+  background-color: rgba(0, 0, 0, 0.12);
+  margin: 1.25rem 0;
+}
+
+.cart {
+  animation-duration: 0.7s;
+  animation-name: animationright;
+  transition: 0.7s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  opacity: 1;
+}
+.cart .conatainer_cart {
+  width: 650px;
+  height: 100%;
+}
+.cart .conatainer_cart .model_windov {
+  background: #fff;
+  height: 100vh;
+  display: none;
+}
+.cart .conatainer_cart .model_windov .model_foter {
+  padding: 1rem;
+  border: 1px solid rgba(118, 121, 127, 0.2);
+  background-color: #fff;
+  border-radius: 2px;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_header .foter_header_item img {
+  height: 50px;
+  width: 50px;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_header .foter_header_item .foter_text p strong {
+  font-size: 1.5rem;
+  line-height: 0.2em;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_header .foter_header_item .foter_text p strong p {
+  font-size: 25px;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_box .foter_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_box .foter_item h5 {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 22px;
+  color: #212121;
+  margin-bottom: 18px;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_box .foter_item .total_cost {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 22px;
+  color: #212121;
+  margin-bottom: 18px;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_box .foter_item .total_price {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 22px;
+  color: #212121;
+  margin-bottom: 18px;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_box .foter_item p {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_box .foter_item .elem .total {
+  font-weight: 700;
+  line-height: 1.75rem;
+  font-size: 22px;
+  color: #212121;
+  margin-bottom: 18px;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_box .foter_item button {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.004em;
+  text-align: center;
+  border-radius: 12px;
+  height: 44px;
+  padding: 0 14px;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  background: #7000ff;
+  color: #fff;
+  width: 100%;
+}
+.cart .conatainer_cart .model_windov .model_foter .foter_box .foter_div {
+  color: #7000ff;
+  border: 1px solid #7000ff;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  border-radius: 2px;
+  padding: 2px 6px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+.cart .conatainer_cart .model_windov .model_box {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 66vh;
+  padding: 1rem;
+  border: 1px solid rgba(118, 121, 127, 0.2);
+  background-color: #fff;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+.cart .conatainer_cart .model_windov .model_box .model_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+.cart .conatainer_cart .model_windov .model_box .model_header .model_header_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart .conatainer_cart .model_windov .model_box .model_header .model_header_item img {
+  width: 30px;
+  height: 30px;
+}
+.cart .conatainer_cart .model_windov .model_box .model_header .model_header_item span {
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  color: #212121;
+}
+.cart .conatainer_cart .model_windov .model_box .model_header .model_header_item p {
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: #757575;
+  margin-right: 0.5rem;
+}
+.cart .conatainer_cart .model_windov .model_box .model_header .model_header_item .delivery {
+  color: #7000ff;
+  border: 1px solid #7000ff;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  border-radius: 2px;
+  padding: 2px 6px;
+  box-sizing: border-box;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item {
+  display: flex;
+  align-items: flex-start;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .cart_image {
+  width: 120px;
+  height: 120px;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items {
+  width: 100%;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_one h4 {
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_one .remove {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 120px;
+  cursor: pointer;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_one .remove img {
+  min-width: 24px;
+  height: 24px;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two .fk_box {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two .fk_box .item_elem {
+  display: flex;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two .fk_box .item_elem .count_box {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: lightgray;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two .fk_box .item_elem .count_box button {
+  height: 38px;
+  width: 38px;
+  padding: 0;
+  border: 0;
+  background: none;
+  border-radius: 0;
+  font-size: 25px;
+  color: gray;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two .fk_box .item_elem .count_box .schet .count {
+  color: rgba(0, 0, 0, 0.87);
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two .fk_box .price_elem {
+  width: 50px;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two .fk_box .price_elem h5 {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.cart .conatainer_cart .model_windov .model_box .model_cart .model_item .items .model_elem_two .fk_box .price_elem .sale_price {
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  text-decoration-line: line-through;
+  color: #757575;
+}
+
+@keyframes animationright {
+  from {
+    right: -600px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}

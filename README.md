@@ -1,1 +1,1 @@
-# shop_js_v2
+# shop-js
